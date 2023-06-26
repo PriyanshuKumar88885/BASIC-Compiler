@@ -33,7 +33,7 @@ void add_symbol(char *name, int type, int value) {
     symbol_table[symbol_table_size].value = value;
     symbol_table_size++;
 }
-
+// This function for finding the symbol in symbol table
 int find_symbol(char *name) {
     int i;
     for (i = 0; i < symbol_table_size; i++) {
