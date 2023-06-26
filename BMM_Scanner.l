@@ -1,3 +1,4 @@
+// It is lex/yacc-based compiler
 %{
 #include <stdio.h>
 #include<string.h>
